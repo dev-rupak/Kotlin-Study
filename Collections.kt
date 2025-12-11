@@ -65,6 +65,7 @@ fun main(){
     post1.comment(user2, "Nice post")
     post1.comment(user3, "I love it")
     post1.comment(user4, "I hate it")
+    post1.block(user4)
 
     post1.showPost()
 
