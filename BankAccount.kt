@@ -1,7 +1,4 @@
-package  Lessons.BankAccount
-
-
-class User(val name: String, val id: Int) {
+class BankAccountUser(val name: String, val id: Int) {
     var money: Int = 0
 
     fun checkBalance() {
@@ -74,7 +71,6 @@ class User(val name: String, val id: Int) {
 }
 
 fun main() {
-    val user1 = User("Rupak", 100)
+    val user1 = BankAccountUser("Rupak", 100)
     user1.showMenu()
 }
-
